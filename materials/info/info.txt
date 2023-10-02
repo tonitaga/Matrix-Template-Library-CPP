@@ -15,3 +15,4 @@
 
         This file contains a Matrix classes that allows you
         to work with a matrix on the heap and on the stack.
+
