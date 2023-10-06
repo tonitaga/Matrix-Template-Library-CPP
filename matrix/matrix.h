@@ -663,7 +663,7 @@ namespace mtl {
         matrix inverse() const {
             double det = determinant_gaussian();
 
-            if (det <= matrix_epsilon<double>::epsilon)
+            if (std::fabs(det) <= matrix_epsilon<double>::epsilon)
                 throw std::logic_error("Can't found inverse matrix because determinant is zero");
 
             return calc_complements().transpose().mul(1 / det);

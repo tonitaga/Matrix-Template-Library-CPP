@@ -607,7 +607,7 @@ namespace mtl {
 #endif // C++ <= 201703L
             double det = determinant_gaussian();
 
-            if (det > matrix_epsilon<double>::epsilon)
+            if (std::fabs(det) > matrix_epsilon<double>::epsilon)
                 return calc_complements().transpose().mul_by_element(static_matrix<T, Rows, Cols>(1 / det));
 
             return zero();
