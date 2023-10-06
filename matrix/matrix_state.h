@@ -1,3 +1,21 @@
+//
+//      © School21 Student
+//      All rights reserved
+//
+//      Author: Gubaydullin Nurislam | aka tonitaga
+//      Gmail:  gubaydullin.nurislam@gmail.com
+//
+//      MTL - Matrix Template Library
+//      MTL is for convenient matrix operations, supporting most matrix operations.
+//      The library is intended for standards not lower than C++11.
+//
+//      It is possible to create a matrix in both dynamic and stack memory.
+//      Starting from C++17, a matrix in stack memory supports compile-time computations.
+//
+//      This project represents a matrix as a container that can be iterated over,
+//      construct matrices from other containers, and construct containers from matrices.
+//
+
 #ifndef MATRIX_TEMPLATE_LIBRARY_CPP_MATRIX_STATE_H_
 #define MATRIX_TEMPLATE_LIBRARY_CPP_MATRIX_STATE_H_
 
